@@ -15,14 +15,19 @@ module.exports = {
       textColor: {
         skin: {
           base: 'var(--text-color-base)',
+          orange: 'var(--orange)',
         }
       },
       backgroundColor: {
         skin: {
           primary: 'var(--bg-color-primary)',
-          branco: 'var(--bg-color-white)',
+          white: 'var(--bg-color-white)',
+          blue: 'var(--blue-gradient)'
         }
-      }
+      },
+      fontFamily: {
+        'sans': 'var(--font-primary)',
+      },
     },
   },
   plugins: [],
