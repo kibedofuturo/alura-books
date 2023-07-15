@@ -7,10 +7,10 @@
 @layer base {
   :root {
     --bg-color-primary: #EBECEE;
-		--bg-color-white: #FFFFFF;
+		--white: #FFFFFF;
+		--bg-color-blue: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
 
 		--orange: #EB9B00;
-		--blue-gradient: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
 
 		--font-primary: 'Poppins', sans-serif;
   }

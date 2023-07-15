@@ -16,17 +16,22 @@ module.exports = {
         skin: {
           base: 'var(--text-color-base)',
           orange: 'var(--orange)',
+          white: 'var(--white)',
         }
       },
       backgroundColor: {
         skin: {
           primary: 'var(--bg-color-primary)',
-          white: 'var(--bg-color-white)',
-          blue: 'var(--blue-gradient)'
+          white: 'var(--white)',
+          blue: 'var(--bg-color-blue)',
         }
       },
       fontFamily: {
         'sans': 'var(--font-primary)',
+      },
+      colors:{
+        'blue1': '#002F52',
+        'blue2': '#326589'
       },
     },
   },
